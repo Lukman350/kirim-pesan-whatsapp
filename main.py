@@ -38,7 +38,7 @@ def KirimPesan():
 
 label = Label(root, text="Pesan", font=20, fg="white", bg="black")
 label.grid(row=1, padx=10, pady=10)
-label.place(x=10, y=160)
+label.place(x=10, y=170)
 message_str = StringVar()
 entry2 = (Entry(root, width=41, textvariable=message_str, bd=6, font=14, borderwidth=6))
 entry2.insert(0, "Tulis pesan kamu disini...")
