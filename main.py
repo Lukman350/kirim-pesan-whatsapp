@@ -65,12 +65,12 @@ def JamLokal():
 JamLokal()
 
 entry3 = (Entry(root, width=20))
-entry3.insert(0, "15")
+entry3.insert(0, "Jam")
 entry3.grid(row=1, column=1, columnspan=1, padx=5, pady=13)
 entry3.place(x=15, y=280)
 
 entry4 = (Entry(root, width=20))
-entry4.insert(0, "20")
+entry4.insert(0, "Menit")
 entry4.grid(row=1, column=1, columnspan=1, padx=5, pady=13)
 entry4.place(x=150, y=280)
 
